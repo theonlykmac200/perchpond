@@ -15,15 +15,43 @@ nav {
     height: 100px;
     padding: 0 20px;
 }
-/* 
-.services {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+h1, .tag {
+    text-align: center;
+}
+
+.story {
+   text-align: center;
+   margin: 20px;
+   align-content: flex-end;
+
+}
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.heropic {
     width: 100%;
-    height: 100px;
-    padding: 0 20px;
-} */
+    height: 400px;
+}
+.banner {
+    position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+}
+/* .tag {
+    background-color: palevioletred;
+    position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}  */
+
+.services {
+   margin: 25px;
+}
+
 .services, .about {
    text-align: center
    
@@ -50,7 +78,6 @@ nav {
 }
 
 .Dan, .Kelly {
-/* align it for the two divs to be in the same line */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
