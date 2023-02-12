@@ -1,0 +1,66 @@
+.logo {
+    width: 30%;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+}
+/* 
+.services {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+} */
+.services, .about {
+   text-align: center
+   
+}
+.col {
+    padding: 25px;
+}
+
+.sibs {
+    display: flex;
+    flex-direction: row;
+}
+.headshot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.name {
+    font-weight: bold;
+    text-align: center;
+}
+
+.Dan, .Kelly {
+/* align it for the two divs to be in the same line */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+p {
+    margin: 3px;
+    padding: 10px;
+}
+
+.about {
+    margin: 25px;
+}
