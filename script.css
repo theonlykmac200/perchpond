@@ -105,3 +105,7 @@ footer {
 footfont {
     font-size: 5px;
 }
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
